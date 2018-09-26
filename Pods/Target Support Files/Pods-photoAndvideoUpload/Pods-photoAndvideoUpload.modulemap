@@ -1,0 +1,6 @@
+framework module Pods_photoAndvideoUpload {
+  umbrella header "Pods-photoAndvideoUpload-umbrella.h"
+
+  export *
+  module * { export * }
+}

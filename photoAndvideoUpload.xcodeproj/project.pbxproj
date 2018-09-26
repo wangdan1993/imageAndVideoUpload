@@ -15,6 +15,12 @@
 		BD4D114F215B1A56004B92E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4D114E215B1A56004B92E0 /* main.m */; };
 		BD4D1159215B1A56004B92E0 /* photoAndvideoUploadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4D1158215B1A56004B92E0 /* photoAndvideoUploadTests.m */; };
 		BD4D1164215B1A56004B92E0 /* photoAndvideoUploadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4D1163215B1A56004B92E0 /* photoAndvideoUploadUITests.m */; };
+		BD4D1174215B1C79004B92E0 /* WDHttpAFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4D1173215B1C79004B92E0 /* WDHttpAFNetworking.m */; };
+		BD4D1177215B2647004B92E0 /* ImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4D1176215B2647004B92E0 /* ImagePicker.m */; };
+		BD4D117A215B29DD004B92E0 /* UIImage+WDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4D1179215B29DD004B92E0 /* UIImage+WDExtension.m */; };
+		BDB982D0215B321700CB1C91 /* VideoUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB982CF215B321700CB1C91 /* VideoUploadViewController.m */; };
+		BDB982D3215B32C500CB1C91 /* VideoPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB982D2215B32C500CB1C91 /* VideoPicker.m */; };
+		FCA935742B00BEA8467BB699 /* Pods_photoAndvideoUpload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566E9664A708E9FF79A4B30C /* Pods_photoAndvideoUpload.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		566E9664A708E9FF79A4B30C /* Pods_photoAndvideoUpload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photoAndvideoUpload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		804AD3B1A759BA9696D5392A /* Pods-photoAndvideoUpload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photoAndvideoUpload.release.xcconfig"; path = "Pods/Target Support Files/Pods-photoAndvideoUpload/Pods-photoAndvideoUpload.release.xcconfig"; sourceTree = "<group>"; };
 		BD4D113C215B1A4C004B92E0 /* photoAndvideoUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photoAndvideoUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4D113F215B1A4C004B92E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD4D1140215B1A4C004B92E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +59,17 @@
 		BD4D115F215B1A56004B92E0 /* photoAndvideoUploadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photoAndvideoUploadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4D1163215B1A56004B92E0 /* photoAndvideoUploadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = photoAndvideoUploadUITests.m; sourceTree = "<group>"; };
 		BD4D1165215B1A56004B92E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4D1172215B1C79004B92E0 /* WDHttpAFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDHttpAFNetworking.h; sourceTree = "<group>"; };
+		BD4D1173215B1C79004B92E0 /* WDHttpAFNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDHttpAFNetworking.m; sourceTree = "<group>"; };
+		BD4D1175215B2647004B92E0 /* ImagePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePicker.h; sourceTree = "<group>"; };
+		BD4D1176215B2647004B92E0 /* ImagePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePicker.m; sourceTree = "<group>"; };
+		BD4D1178215B29DD004B92E0 /* UIImage+WDExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+WDExtension.h"; sourceTree = "<group>"; };
+		BD4D1179215B29DD004B92E0 /* UIImage+WDExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WDExtension.m"; sourceTree = "<group>"; };
+		BDB982CE215B321700CB1C91 /* VideoUploadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoUploadViewController.h; sourceTree = "<group>"; };
+		BDB982CF215B321700CB1C91 /* VideoUploadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoUploadViewController.m; sourceTree = "<group>"; };
+		BDB982D1215B32C500CB1C91 /* VideoPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPicker.h; sourceTree = "<group>"; };
+		BDB982D2215B32C500CB1C91 /* VideoPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPicker.m; sourceTree = "<group>"; };
+		D52D2CDFE12AF8731F8FA88E /* Pods-photoAndvideoUpload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photoAndvideoUpload.debug.xcconfig"; path = "Pods/Target Support Files/Pods-photoAndvideoUpload/Pods-photoAndvideoUpload.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCA935742B00BEA8467BB699 /* Pods_photoAndvideoUpload.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A25E9DD0DA0F34462B8E662 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D52D2CDFE12AF8731F8FA88E /* Pods-photoAndvideoUpload.debug.xcconfig */,
+				804AD3B1A759BA9696D5392A /* Pods-photoAndvideoUpload.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BD4D1133215B1A4C004B92E0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +114,8 @@
 				BD4D1157215B1A56004B92E0 /* photoAndvideoUploadTests */,
 				BD4D1162215B1A56004B92E0 /* photoAndvideoUploadUITests */,
 				BD4D113D215B1A4C004B92E0 /* Products */,
+				6A25E9DD0DA0F34462B8E662 /* Pods */,
+				D84AED81150E78FF6E0A62D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +132,13 @@
 		BD4D113E215B1A4C004B92E0 /* photoAndvideoUpload */ = {
 			isa = PBXGroup;
 			children = (
+				BD4D1171215B1C52004B92E0 /* 封装 */,
 				BD4D113F215B1A4C004B92E0 /* AppDelegate.h */,
 				BD4D1140215B1A4C004B92E0 /* AppDelegate.m */,
 				BD4D1142215B1A4C004B92E0 /* ViewController.h */,
 				BD4D1143215B1A4C004B92E0 /* ViewController.m */,
+				BDB982CE215B321700CB1C91 /* VideoUploadViewController.h */,
+				BDB982CF215B321700CB1C91 /* VideoUploadViewController.m */,
 				BD4D1145215B1A4C004B92E0 /* Main.storyboard */,
 				BD4D1148215B1A56004B92E0 /* Assets.xcassets */,
 				BD4D114A215B1A56004B92E0 /* LaunchScreen.storyboard */,
@@ -132,6 +166,29 @@
 			path = photoAndvideoUploadUITests;
 			sourceTree = "<group>";
 		};
+		BD4D1171215B1C52004B92E0 /* 封装 */ = {
+			isa = PBXGroup;
+			children = (
+				BD4D1172215B1C79004B92E0 /* WDHttpAFNetworking.h */,
+				BD4D1173215B1C79004B92E0 /* WDHttpAFNetworking.m */,
+				BD4D1175215B2647004B92E0 /* ImagePicker.h */,
+				BD4D1176215B2647004B92E0 /* ImagePicker.m */,
+				BDB982D1215B32C500CB1C91 /* VideoPicker.h */,
+				BDB982D2215B32C500CB1C91 /* VideoPicker.m */,
+				BD4D1178215B29DD004B92E0 /* UIImage+WDExtension.h */,
+				BD4D1179215B29DD004B92E0 /* UIImage+WDExtension.m */,
+			);
+			path = "封装";
+			sourceTree = "<group>";
+		};
+		D84AED81150E78FF6E0A62D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				566E9664A708E9FF79A4B30C /* Pods_photoAndvideoUpload.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD4D1168215B1A56004B92E0 /* Build configuration list for PBXNativeTarget "photoAndvideoUpload" */;
 			buildPhases = (
+				DEAA7CBA0841F65F92F1BAAC /* [CP] Check Pods Manifest.lock */,
 				BD4D1138215B1A4C004B92E0 /* Sources */,
 				BD4D1139215B1A4C004B92E0 /* Frameworks */,
 				BD4D113A215B1A4C004B92E0 /* Resources */,
+				12576AD1D7A9335E4063FAAF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,14 +316,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12576AD1D7A9335E4063FAAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-photoAndvideoUpload/Pods-photoAndvideoUpload-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-photoAndvideoUpload/Pods-photoAndvideoUpload-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEAA7CBA0841F65F92F1BAAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-photoAndvideoUpload-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BD4D1138215B1A4C004B92E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD4D1177215B2647004B92E0 /* ImagePicker.m in Sources */,
 				BD4D1144215B1A4C004B92E0 /* ViewController.m in Sources */,
+				BD4D117A215B29DD004B92E0 /* UIImage+WDExtension.m in Sources */,
+				BD4D1174215B1C79004B92E0 /* WDHttpAFNetworking.m in Sources */,
 				BD4D114F215B1A56004B92E0 /* main.m in Sources */,
+				BDB982D3215B32C500CB1C91 /* VideoPicker.m in Sources */,
 				BD4D1141215B1A4C004B92E0 /* AppDelegate.m in Sources */,
+				BDB982D0215B321700CB1C91 /* VideoUploadViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,11 +536,13 @@
 		};
 		BD4D1169215B1A56004B92E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52D2CDFE12AF8731F8FA88E /* Pods-photoAndvideoUpload.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GMW6HA76N5;
 				INFOPLIST_FILE = photoAndvideoUpload/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,16 +550,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hisilc.photoAndvideoUpload;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
 		BD4D116A215B1A56004B92E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 804AD3B1A759BA9696D5392A /* Pods-photoAndvideoUpload.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GMW6HA76N5;
 				INFOPLIST_FILE = photoAndvideoUpload/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +570,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hisilc.photoAndvideoUpload;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
